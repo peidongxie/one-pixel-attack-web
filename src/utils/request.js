@@ -1,4 +1,4 @@
-const base = 'http://api.peaceandlove.top';
+const base = 'https://api.peaceandlove.top';
 
 const request = async (input, init) => {
   const response = await fetch(base + input, init);
