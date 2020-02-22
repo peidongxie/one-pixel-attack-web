@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="./favicon.ico"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#1890ff"/>
+  <link rel="manifest" href="./manifest.json"/>
+  <title>One Pixel Attack</title>
+  <script>
+    const QQmap = (response) => {
+      if (response.status === 0) {
+        if (response['result']['ad_info']['addcode'] === 0) {
+          if (!location.hostname.startsWith('www.')) {
+            location.hostname = 'www.' + location.hostname;
+          }
+        } else {
+          if (location.hostname.startsWith('www.')) {
+            location.hostname = location.hostname.substr(4);
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://apis.map.qq.com/ws/location/v1/ip?key=EZGBZ-WQE6X-7QZ4W-7VHQQ-K5VX5-6WF7N&output=jsonp">
+  </script>
+</head>
+<body>
+<div id="root"></div>
+</body>
+</html>

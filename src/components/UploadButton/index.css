@@ -1,0 +1,9 @@
+.upload-button .ant-btn {
+  margin: auto 6px;
+}
+
+.upload-button small {
+  margin: auto 6px;
+  font-size: 12px;
+  color: #808080;
+}

@@ -1,0 +1,40 @@
+#chart {
+  padding: 0 10px;
+  height: fit-content;
+  width: 480px;
+  max-width: 900px;
+  margin: 12px;
+  flex: auto;
+  background-color: #ffffff;
+}
+
+#chart:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#chart > .ant-skeleton {
+  padding: 24px;
+}
+
+#chart > .ant-alert {
+  margin: 36px;
+}
+
+#chart > div:last-child {
+  padding-right: 40px;
+}
+
+#comparison {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#comparison > #before {
+  padding: 0;
+  margin: 36px 0 0 0;
+}
+
+#comparison > #after {
+  padding: 0;
+  margin: 36px 0 0 0;
+}

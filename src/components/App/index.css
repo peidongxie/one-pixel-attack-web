@@ -1,0 +1,10 @@
+.ant-layout-content {
+  padding: 36px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.ant-layout-footer {
+  text-align: center;
+}

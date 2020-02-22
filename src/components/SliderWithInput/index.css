@@ -1,0 +1,13 @@
+.slider-with-input {
+  display: flex;
+}
+
+.slider-with-input > .ant-input-number {
+  margin: auto 6px;
+  flex: none;
+}
+
+.slider-with-input > .ant-slider {
+  flex: auto;
+}
+

@@ -1,0 +1,21 @@
+#form {
+  padding: 36px 0 12px 0;
+  height: fit-content;
+  width: 480px;
+  max-width: 900px;
+  margin: 12px;
+  flex: auto;
+  background-color: #ffffff;
+}
+
+#form:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#form .submit {
+  margin: auto 6px;
+}
+
+#form_normalized {
+  margin: auto 6px;
+}
