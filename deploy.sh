@@ -2,7 +2,7 @@
 
 set -e
 yarn build
-cd static/
+cd build/
 git init
 
 if [ "$1" = '' ]; then
